@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 public class GrumpyCatAdapter extends RecyclerView.Adapter<GrumpyCatAdapter.CatHolder> {
@@ -43,7 +45,7 @@ public class GrumpyCatAdapter extends RecyclerView.Adapter<GrumpyCatAdapter.CatH
         GrumpyCat grumpyCat = cats.get(position);
 
         Picasso.get().load(grumpyCat.getImage()).into(holder.image);
-        holder.name.setText(grumpyCat.getImage());
+        holder.name.setText(grumpyCat.getName());
     }
 
     @Override
