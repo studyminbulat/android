@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchoolFragment">
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TableRow android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_span="2"
+                android:text="Школьное образование"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Школа"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="МОУ «Гимназия №18 с татарским языком обучения» Приволжского района города Казани"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Музыкальная школа"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="МОУДОД «Детская школа искусств» Приволжкого района города Казани, специальность «Баян»"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_span="2"
+                android:text="Высшее образование"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Бакалавриат"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="ФГАОУ ВО «Казанский (приволжский) федеральный университет»,
+Институт вычислительной математики и информационных технологий,
+направление «Бизнес-информатика»"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Магистратура"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="ФГАОУ ВО «Санкт-Петербургский национальный исследовательский университет информационных технологий, механики и оптики»,
+факультет программной инженерии и компьютерной техники,
+программа «Веб-технологии»"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Второй бакалавриат"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="ФГБОУ ВО «Томский государственный университет систем управления и радиоэлектроники»,
+факультет дистанционного обучения,
+направление «Юриспруденция»"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

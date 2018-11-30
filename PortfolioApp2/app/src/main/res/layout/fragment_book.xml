@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookFragment">
+
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Тема магистерской диссертации"
+                android:textSize="15sp"
+                android:layout_marginTop="20px"/>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Игрофикация в дистанционном обучении школьников"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Научный руководитель"
+                android:textSize="15sp"
+                android:layout_marginTop="20px"
+                />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Ирина Борисовна Готская"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Описание"
+                android:textSize="15sp"
+                android:layout_marginTop="20px" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text=
+       "      Игрофикация позволяет повысить вовлеченность обучающихся в учебный процесс.\n
+      Множество проведенных отечественных и зарубежных исследований показывают увеличение качества знаний при применении игрофикации.\n
+      Дистанционное обучение позволяет свободно планировать учебные курсы.\n
+      Благодаря возможности выбора времени и места для занятий, обучающиеся могут заниматься в любое время и в любом удобном месте.\n
+      Современные технологии позволяют индивидуализировать обучение, подстроив программу обучения для каждого ученика. "
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+    </TableLayout>
+
+
+</FrameLayout>

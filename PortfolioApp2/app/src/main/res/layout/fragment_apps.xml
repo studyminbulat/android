@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppsFragment">
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_margin="20dp">
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s01"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Test App"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s02"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="TV Series"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s03"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Send Intent App"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s04"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Call Intent App"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s11"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Exam App"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s05"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Lifecycle App"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s06"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Timer App"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s07_1"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Sport App"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s08"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Grumpy Cat App"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s09"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Fragment App"
+                />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="177dp"
+                android:src="@drawable/s10_1"
+                />
+            <TextView android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Portfolio App"
+                />
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+</FrameLayout>

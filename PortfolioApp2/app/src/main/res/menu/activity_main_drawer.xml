@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/account"
+            android:title="Обо мне" />
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/school"
+            android:title="Учеба" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/book"
+            android:title="Диссертация" />
+        <item
+            android:id="@+id/nav_apps"
+            android:icon="@drawable/apps"
+            android:title="Приложения" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/account"
+            android:title="Контакты" />
+    </group>
+
+
+</menu>
